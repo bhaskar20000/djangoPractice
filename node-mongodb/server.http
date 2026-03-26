@@ -1,0 +1,25 @@
+GET http://localhost:3000/books/
+###
+
+
+POST http://localhost:3000/books
+Content-Type: application/json  
+
+{
+  "title": "Pusphandra",
+  "author": "F. Scott Fitzgerald",
+  "publishedYear": 1925
+}
+
+
+###
+ 
+PUT http://localhost:3000/books/69b7e47e9584e32eb9ec3f7a
+Content-Type: application/json  
+
+{
+  "title": "updated name",
+  "author": "F. Scott Fitzgerald",
+  "publishedYear": 1925
+}
+
